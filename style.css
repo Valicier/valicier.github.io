@@ -1,0 +1,63 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #dbc000;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #10659e;
+  color: white;
+}
+
+@font-face { font-family: larabie; src: url('larabiefont rg.otf'); } 
+
+body {
+	font-family: larabie, monospace;
+	color: #ffffff;
+	background-color: #383838;
+}
+
+/* Sets divider info */
+hr.solid {
+	border: 2px solid #dbc000
+}
+
+/* Link table part */
+table {
+	width: 100%;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+
+th.discover {
+	width: 20%;
+	word-wrap: break-word
+}
+
+/* Temp */
+th.discover, tr.discover {
+	border: 1px solid #dbc000;
+}
+
+/* No link color/underline */
+a.discover, a.discover:hover, a.discover:visited, a.discover:active {
+  color: inherit;
+  text-decoration: none;
+ }
