@@ -25,9 +25,8 @@
 	
 	<p>For the first jumps, this system worked well. If you knew a star had a GATE, all you had to do was follow the angles through the GATE (The distance between the Earth and the GATE is small enough that the angles do not change). Once there, the ship would take a spectral analysis of three stars, as well as the ships relative angle to these stars, to know at which position and angle they came in. On the way back, all you had to do was retuurn to your original position and reverse your angle, and you were back home (Though their were many ships that never returned home, and missaligned jumps is a common theory on why).</p>
 	
-	<!-- Explain Spectral Analysis Somewhere -->
-	
 	<p>Problems arose when planning how to jump between systems where neither was Earth. Assuming you can see the star of your destination, it would be possible to estimate the angle needed, though this is a very risky technique. Additonaly, since stars are rarley visible past 1,000 light years (LY) with the naked eye, this makes visual estimation even more risky. In order to solve the problem, the Galactic Coordinate System was created.</p>
+	
 	
 	<br>
 	<h3>Galactic Coordinate System</h3>
@@ -50,22 +49,27 @@
 				<img src="Coordinate Example.jpg" alt="Coordinate Example" height="200">
 			</td>
 			<td>
-				<p>In the example image shown to the left, the Sector Coordiantes of the marked sector would be given as 114. If the Local Coordinates were given to be 872 units in the x direction, 59 units in the y direction, and -12 units in the z direction, then the full coordiantes would be given as 114(872,059,-012).</p>
+				<p>In the example image shown to the left, the Sector Coordinates of the marked sector would be given as 114. If the Local Coordinates were given to be 872 units in the x direction, 59 units in the y direction, and -12 units in the z direction, then the full coordinates would be given as 114(872,059,-012).</p>
 			</td>
 		</tr>
 	</table>
 	
 	
 	<br>
+	<h3>Finding Yourself</h3>
+	<p>In this great big Galaxy of ours, it can be diffiuclt to know where you are. In order to find your location,</p>
+	<p style="color:#dbc000">SOMTHING IS USED (Spectral Analyisis metioned in first section so remove if must)</p>
+	
+	<br>
 	<h3>Plotting Jumps (AKA: The Math)</h3>
 	<p>This is the part that most people hate, trying to plot the jumps. While the math is not complex, it is also not inatley intuitive and normally left to computers. Navigators and most captains know how to do the math the old fashion way in case they have to do it, and once you learn it once, it looks much less complex.</p>
 	
-	<p>In order to plot a jump between systems, two values need to be known. These are the angle to the destination along the Galactic Plane, also known as Right Ascension (&theta;), and the angle of the destination above or below the Galactic Plane, also known as Declination (&phi;). This may sound similar to the Equatorial Coordiante System, and that is beacause it is. These both are based on knowing at what angles from you an object lies. However, rather than only working near the Sol sytem, jump angles can be calculated to connect any two locations in the Galaxy, assuming you know the Galactic Coordinates of both locations.</p>
+	<p>In order to plot a jump between systems, two values need to be known. These are the angle to the destination along the Galactic Plane, also known as Right Ascension (&theta;), and the angle of the destination above or below the Galactic Plane, also known as Declination (&phi;). This may sound similar to the Equatorial Coordinate System, and that is beacause it is. These both are based on knowing at what angles from you an object lies. However, rather than only working near the Sol sytem, jump angles can be calculated to connect any two locations in the Galaxy, assuming you know the Galactic Coordinates of both locations.</p>
 	<center><img src="Angle Image.png" alt="Angles" height="200"></center>
 	
-	<p>Before getting into the math, it is important to understand how the values from the Galactic Coordinate System convert into values that can be used. First, the Local Coordiantes must be worked into the sector coodinates. To do this, take each Local Coordinate and divide it by 1,000. You may remeber that this is how many sections each edge of a sector is broken into. Now add this to the sector coordinate (Since there is nothing to add the z value to, this value is the final result).</p>
+	<p>Before getting into the math, it is important to understand how the values from the Galactic Coordinate System convert into values that can be used for math, know as Decimal Coordinates. First, the Local Coordinates must be worked into the Sector Coodinates. To do this, take each Local Coordinate and divide it by 1,000. You may remeber that this is how many sections each edge of a sector is broken into. Now add this to the Sector Coordinates to obtain the Decimal Coodinates (Since there is nothing to add the z value to, its value is its final result).</p>
 	
-	<p>Next, it must be determnined if the x and y Sector Cordinates are positve or negative. To do this, look at the quadrent number and use the table below.</p>
+	<p>Next, it must be determnined if the x and y Decimal Cordinates are positve or negative. To do this, look at the quadrent number and use the table below.</p>
 	
 	<table align=center style="width:250px; border-collapse: collapse;">
 		<tr style="border-bottom: 1px solid #dbc000;">
@@ -130,6 +134,7 @@
 	<p>Calculations for Right Ascension and Declination are done using trigonometry, which is math concerned with relationships between angles and lengths. For our calcualtions, we are concerned with the relationships in right triangles. These calculations can be performed in any unit, be it light years, sectors, or something else as long as all the units used as the same. The first equation is the equation for finding the Right Ascension. This equation uses only the x and y coordinates, and is written as
 		\[ \theta_0 = tan^{-1} \left\lvert {{o_2-o_1} \over {a_2-a_1}} \right\lvert \]
 	where <i>o</i> is the coordinates along the opposite leg of the triangle from the desired angle, and <i>a</i> is the coordinates along the adjacent leg. Subscript 2 denotes the destination, while subscript 1 denotes the starting position. When drawing the right traignle, if the destination seems to be towards the 1st or 3rd quadrent, draw the line from your starting position verticaly. If the destination seems to be towards the 2nd or 4th quadrent, draw the line from your starting position horizontaly. Now draw another line connecting the end of this line to the destination. The angle you are looking for is the one in the corner with the starting position.</p>
+	<center><img src="Triangle Drawing.png" alt="Triangle Drawing" height="200"></center>
 	
 	<p>Unforanutly, do to how arc tangent works, this will only give you a value between 0&deg; and 90&deg;. To account for this, a multiple of 90&deg; needs to be added. Since the angle systems starts at Galactic North and goes CCW, this is the direction in which the angles increase. The table below shows how much to add to &theta;<sub>0</sub> in order to get the final angle &theta;, depending on into which quadrent the destination seems to be.</p>
 	
@@ -176,5 +181,24 @@
 		</tr>
 	</table>
 	
-	<p>The equation used to find Declination is written as
+	<p>In toder to find Declination, the equation used is written as
 		\[ \phi = tan^{-1} \left\lvert {{z_2-z_1} \over \sqrt{(x_2-x_1)^2+(y_2-y_1)^2}} \right\lvert \]
+	where <i>x</i>, <i>y</i> and <i>z</i> are the respective Decimal Coordinates. Subscript 2 denotes the destination, while subscript 1 denotes the starting position.</p>
+	
+	<p>By using the obtained Right Ascension and Declination angles, it is possible to go between any two points. Again, don't panic, there will almost always be a navigational computer available to do the math for you.</p>
+	
+	<h4>Angle Calculation Example</h4>
+	<table class="wide">
+		<tr>
+			<td width=225px>
+				<img src="Math Example.png" alt="Math Example" height="200">
+			</td>
+			<td>
+				<p>In the example image shown to the left, assume that you are at the green X with coordiantes 121(372,520,-032) and wish to go to the red X with cordiantes 210(193,215,087). Converting this to Decimal Coordinates, your location would be given as (2.372,1.520,-0.032) and your destinations location as (1.193,-1.215,0.087). To solve for the Right Ascension, the equation would be
+					\[ \theta = tan^{-1} \left\lvert {{1.193-2.372} \over {-1.215-1.520}} \right\lvert + 180^\circ = 214.20^\circ. \]
+				The 180&deg; is added beacuse the destination heads towards the third quadrent. To find the Declination, the equation would be
+					\[ \phi = tan^{-1} \left\lvert {{0.087-(-0.032)} \over \sqrt{(1.193-2.372)^2+(-1.215-1.520)^2}} \right\lvert = 3.25^\circ. \]
+				</p>
+			</td>
+		</tr>
+	</table>
