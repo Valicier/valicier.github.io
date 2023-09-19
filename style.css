@@ -52,11 +52,6 @@ th.discover {
 	word-wrap: break-word
 }
 
-/* Temp */
-th.discover, tr.discover {
-	border: 1px solid #dbc000;
-}
-
 /* No link color or underline */
 a.discover, a.discover:hover, a.discover:visited, a.discover:active {
   color: inherit;
@@ -67,4 +62,53 @@ a.discover, a.discover:hover, a.discover:visited, a.discover:active {
 th.sides {
 	border-left: 1px solid #dbc000;
 	border-right: 1px solid #dbc000;
+}
+
+.collapsetext {
+	color: #57acff;
+	text-decoration: underline;
+	font-size: smaller;
+}
+
+/* Hide parts of Togglable List */
+[id^="togList"], /* Hide checkbox */
+[id^="togList"]:checked ~ .list, /* Hide List if checked */
+[id^="togList"] + label span + span + span, /*Hide "SHOW" */
+[id^="togList"]:checked + label span + span /* Hide "HIDE" if checked */
+{
+	display: none;
+}
+
+/* Show parts of Togglable List */
+[id^="togList"] + label span + span + span + span, /* Show end bracket */
+[id^="togList"]:checked + label span + span + span /* Show "SHOW" if checked */
+{
+	display: inline-block;
+}
+
+/* Show Togglable List */
+[id^="togList"] ~ .list /* Show List */
+{
+	display: block;
+}
+
+/* Togglable List division */
+div.togList {
+	width: 25%;
+	border: 1px solid #dbc000;
+	background-color: #515151;
+}
+
+/* Set details for .list */
+.list {
+	text-align:left;
+}
+
+.list a, .list a:active {
+	color: #57acff;
+}
+
+/* Temp */
+th.discover, tr.discover {
+	border: 1px solid #dbc000;
 }
