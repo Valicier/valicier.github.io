@@ -35,7 +35,10 @@ body {
 }
 
 /* Sets divider info */
-hr.solid {
+hr.divider1 {
+	border: 1px solid #dbc000
+}
+hr.divider2 {
 	border: 2px solid #dbc000
 }
 
@@ -106,6 +109,11 @@ div.togList {
 
 .list a, .list a:active {
 	color: #57acff;
+}
+
+.section {
+	border-bottom: 1px solid #dbc000;
+	width: 100%;
 }
 
 /* Temp */
