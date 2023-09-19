@@ -94,7 +94,7 @@ th.sides {
 
 /* Togglable List division */
 div.togList {
-	width: 25%;
+	width: 250px;
 	border: 1px solid #dbc000;
 	background-color: #515151;
 }
