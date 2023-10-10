@@ -1,6 +1,6 @@
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #dbc000;
+  background-color: #fab80a;
   overflow: hidden;
 }
 
@@ -36,10 +36,10 @@ body {
 
 /* Sets divider info */
 hr.divider1 {
-	border: 1px solid #dbc000
+	border: 1px solid #fab80a;
 }
 hr.divider2 {
-	border: 2px solid #dbc000
+	border: 2px solid #fab80a;
 }
 
 /* Wide Table (Used for discover and others) */
@@ -63,8 +63,8 @@ a.discover, a.discover:hover, a.discover:visited, a.discover:active {
 
 /* Left and Right borders on table */
 th.sides {
-	border-left: 1px solid #dbc000;
-	border-right: 1px solid #dbc000;
+	border-left: 1px solid #fab80a;
+	border-right: 1px solid #fab80a;
 }
 
 .collapsetext {
@@ -98,7 +98,7 @@ th.sides {
 /* Togglable List division */
 div.togList {
 	width: 250px;
-	border: 1px solid #dbc000;
+	border: 1px solid #fab80a;
 	background-color: #515151;
 }
 
@@ -112,11 +112,11 @@ div.togList {
 }
 
 .section {
-	border-bottom: 1px solid #dbc000;
+	border-bottom: 1px solid #fab80a;
 	width: 100%;
 }
 
 /* Temp */
 th.discover, tr.discover {
-	border: 1px solid #dbc000;
+	border: 1px solid #fab80a;
 }

@@ -1,0 +1,107 @@
+	<br>
+	<h3 id="Sol" class="section">Sol</h3>
+	<section>
+		<p>Location: 000 (000,000,-006)</p>
+		<p>Discovered: N/A</p>
+		<p>Pronunciation: "Soul"</p>
+		<p>Stars: 1
+			<ul>
+				<li>Sol: G2V Yellow Dwarf</li>
+			</ul>
+		</p>
+		<p>Planets: 8
+			<ul>
+				<li>Mercury</li>
+				<li>Venus</li>
+				<li>Earth</li>
+				<li>Mars</li>
+				<li>Jupiter</li>
+				<li>Saturn</li>
+				<li>Uranus</li>
+			</ul>
+		</p>
+		<p>Other Features:
+			<ul>
+				<li>Asteroid Belt</li>
+			</ul>
+		</p>
+		<p>Colonies
+			<ul>
+				<li>Earth (Homeworld)</li>
+				<li>Malvina (Moon, Est. 2108/06/30)</li>
+			</ul>
+		</p>
+	</section>
+	
+	<br>
+	<h3 id="Miciri" class="section">Miciri</h3>
+	<section>
+		<p>Location: 412 (219,572,-034)</p>
+		<p>Discovered: DATE</p>
+		<p>Pronunciation: "Mc-ear-E"</p>
+		<p>Stars: 1
+			<ul>
+				<li>Miciri: K4III Orange Giant</li>
+			</ul>
+		</p>
+		<p>Planets: 4
+			<ul>
+				<li>Vycrone</li>
+				<li>Miciri II</li>
+				<li>Miciri III</li>
+				<li>Miciri IV</li>
+			</ul>
+		</p>
+		<p>Colonies
+			<ul>
+				<li>Vycrone (Vycrone, Est. DATE)</li>
+			</ul>
+		</p>
+	</section>
+	
+	<br>
+	<h3 id="Kaukai" class="section">Kaukai</h3>
+	<section>
+		<p>Location: 320 (280,735,012)</p>
+		<p>Discovered: DATE</p>
+		<p>Pronunciation: "Cow-kai"</p>
+		<p>Stars: 1
+			<ul>
+				<li>Kaukai: M2V Red Dwarf</li>
+			</ul>
+		</p>
+		<p>Planets: 3
+			<ul>
+				<li>Kaukai I</li>
+				<li>Kaukai II</li>
+				<li>Kaukai III</li>
+			</ul>
+		</p>
+		<p>Other Features:
+			<ul>
+				<li>Asteroid Belt</li>
+			</ul>
+		</p>
+	</section>
+	
+	<br>
+	<h3 id="Utoths" class="section">Utoths</h3>
+	<section>
+		<p>Location: 121 (174,429,-032)</p>
+		<p>Discovered: DATE</p>
+		<p>Pronunciation: "oh-toth-s"</p>
+			<p>oh like pretty not understanding</p>
+		<p>Stars: 1
+			<ul>
+				<li>Utoths: DZ6 White Dwarf</li>
+			</ul>
+		</p>
+		<p>Planets: 3
+			<ul>
+				<li>Utoths I</li>
+				<li>Utoths II</li>
+				<li>Utoths III</li>
+			</ul>
+		</p>
+	</section>
+	
