@@ -116,6 +116,12 @@ div.togList {
 	width: 100%;
 }
 
+h2.section {
+	font-weight: normal;
+}
+
+
+
 /* Temp */
 th.discover, tr.discover {
 	border: 1px solid #fab80a;
