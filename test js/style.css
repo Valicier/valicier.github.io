@@ -1,0 +1,128 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #fab80a;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #10659e;
+  color: white;
+}
+
+/* Font */
+@font-face { font-family: larabie; src: url('larabiefont rg.otf'); } 
+body {
+	font-family: larabie, monospace;
+	color: #ffffff;
+	background-color: #383838;
+}
+
+/* Sets divider info */
+hr.divider1 {
+	border: 1px solid #fab80a;
+}
+hr.divider2 {
+	border: 2px solid #fab80a;
+}
+
+/* Wide Table (Used for discover and others) */
+table.wide {
+	width: 100%;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+
+/* Sets width for discover cells */
+th.discover {
+	width: 20%;
+	word-wrap: break-word
+}
+
+/* No link color or underline */
+a.discover, a.discover:hover, a.discover:visited, a.discover:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Left and Right borders on table */
+th.sides {
+	border-left: 1px solid #fab80a;
+	border-right: 1px solid #fab80a;
+}
+
+.collapsetext {
+	color: #57acff;
+	text-decoration: underline;
+	font-size: smaller;
+}
+
+/* Hide parts of Togglable List */
+[id^="togList"], /* Hide checkbox */
+[id^="togList"]:checked ~ .list, /* Hide List if checked */
+[id^="togList"] + label span + span + span, /*Hide "SHOW" */
+[id^="togList"]:checked + label span + span /* Hide "HIDE" if checked */
+{
+	display: none;
+}
+
+/* Show parts of Togglable List */
+[id^="togList"] + label span + span + span + span, /* Show end bracket */
+[id^="togList"]:checked + label span + span + span /* Show "SHOW" if checked */
+{
+	display: inline-block;
+}
+
+/* Show Togglable List */
+[id^="togList"] ~ .list /* Show List */
+{
+	display: block;
+}
+
+/* Togglable List division */
+div.togList {
+	width: 250px;
+	border: 1px solid #fab80a;
+	background-color: #515151;
+}
+
+/* Set details for .list */
+.list {
+	text-align:left;
+}
+
+.list a, .list a:active {
+	color: #57acff;
+}
+
+.section {
+	border-bottom: 1px solid #fab80a;
+	width: 100%;
+}
+
+h2.section {
+	font-weight: normal;
+}
+
+
+
+/* Temp */
+th.discover, tr.discover {
+	border: 1px solid #fab80a;
+}
