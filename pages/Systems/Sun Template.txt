@@ -1,0 +1,10 @@
+<br>
+	<h2 id="Star" class="section">Star</h2>
+	<section>
+		<p>Type: __(Class)__ (__(Simple)__)</p>
+		<p>Radius: ___ km &nbsp(_.___ Sol)</p>
+		<p>Mass: _.___x10<sup>__</sup> kg &nbsp(_.___ Sol)</p>
+		<p>Genreal Temperature: ___ K</p>
+		<p>Luminosity: _.___x10<sup>__</sup> W &nbsp(_.___ sol)</p>
+		<p>Age: _._ Billion Earth years</p>
+	</section>

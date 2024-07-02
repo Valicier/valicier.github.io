@@ -1,4 +1,5 @@
-<br>
+<section>
+	<br>
 		<p><h3>_____</h3></p>
 		<p>Type: ___</p>
 		<p>Mean Surface Radius: ___ km &nbsp(_.___ Earth)</p>
@@ -11,3 +12,4 @@
 		<p>Mean Orbit Radius: ___x10<sup>_</sup> km &nbsp(_.___ AU)</p>
 		<p>Average Obrital Speed: __.___ km/s</p>
 		<p>Satellites: _</p>
+	</section>
