@@ -1,6 +1,6 @@
 <section>
 		<br>
-			<p><h3>_____</h3></p>
+			<p><h3 id="____">_____</h3></p>
 			<p>Type: ___</p>
 			<p>Mean Surface Radius: ___ km &nbsp(_.___ Earth)</p>
 			<p>Mass: _.___x10<sup>__</sup> &nbsp(_.___ Earth)</p>
